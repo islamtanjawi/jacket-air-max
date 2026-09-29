@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="جاكيت شتوي بوجهين، دافئ وأنيق، بسعر 260 درهم والتوصيل مجاني لجميع أنحاء المغرب.">
+  <title>جاكيت شتوي بوجهين | 260 درهم</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <span>🚚 التوصيل مجاني لجميع أنحاء المغرب</span>
+      <span>💵 الدفع عند الاستلام</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-images">
+          <div class="badge">🔥 عرض خاص</div>
+          <img id="heroImage" src="jacket-white.jpeg" alt="جاكيت شتوي بوجهين">
+          <div class="thumbs">
+            <button class="thumb active" data-image="jacket-white.jpeg" aria-label="الوجه الأبيض">
+              <img src="jacket-white.jpeg" alt="">
+            </button>
+            <button class="thumb" data-image="jacket-black.jpeg" aria-label="الوجه الأسود">
+              <img src="jacket-black.jpeg" alt="">
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow">جاكيت شتوي بوجهين</p>
+          <h1>جاكيت واحد<br><span>بوجهين حسب ستايلك</span></h1>
+          <p class="lead">استمتع بإطلالة مختلفة كل يوم مع جاكيت دافئ بتصميم عملي وأنيق.</p>
+
+          <div class="price-box">
+            <span class="old-price">بدون مصاريف توصيل</span>
+            <strong>260 <small>درهم</small></strong>
+            <span class="delivery">🚚 التوصيل مجاني لجميع أنحاء المغرب</span>
+          </div>
+
+          <ul class="benefits">
+            <li>✓ تصميم بوجهين: أبيض / أسود</li>
+            <li>✓ مناسب للأجواء الباردة</li>
+            <li>✓ مقاسات S - M - L - XL - XXL</li>
+            <li>✓ الدفع عند الاستلام</li>
+          </ul>
+
+          <a class="cta" href="#order">اطلب الآن بـ 260 درهم</a>
+          <p class="small-note">املأ معلوماتك وسنتواصل معك لتأكيد الطلب.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="creative-showcase">
+      <div class="container">
+        <img src="creative-jacket.png" alt="إعلان جاكيت شتوي بوجهين بسعر 260 درهم والتوصيل مجاني">
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <h2>لماذا هذا الجاكيت؟</h2>
+        <div class="feature-grid">
+          <article><div class="icon">↔</div><h3>وجهين في جاكيت واحد</h3><p>غيّر اللوك بسرعة واختر الوجه الذي يناسبك.</p></article>
+          <article><div class="icon">❄</div><h3>مناسب للشتاء</h3><p>تصميم مبطن يمنحك دفئًا وراحة في الأيام الباردة.</p></article>
+          <article><div class="icon">🚚</div><h3>توصيل مجاني</h3><p>التوصيل مجاني لجميع المدن في المغرب.</p></article>
+          <article><div class="icon">💵</div><h3>الدفع عند الاستلام</h3><p>ادفع عند وصول الطلب إليك.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="container">
+        <h2>شاهد الوجهين</h2>
+        <div class="gallery-grid">
+          <figure>
+            <img src="jacket-white.jpeg" alt="الوجه الأبيض للجاكيت">
+            <figcaption>الوجه الأبيض</figcaption>
+          </figure>
+          <figure>
+            <img src="jacket-black.jpeg" alt="الوجه الأسود للجاكيت">
+            <figcaption>الوجه الأسود</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="order-section" id="order">
+      <div class="container order-wrap">
+        <div class="order-info">
+          <p class="eyebrow">الطلب سهل وسريع</p>
+          <h2>اطلب جاكيتك الآن</h2>
+          <p>السعر <strong>260 درهم</strong> والتوصيل <strong>مجاني</strong> لجميع أنحاء المغرب.</p>
+          <div class="summary">
+            <span>المنتج</span><strong>جاكيت شتوي بوجهين</strong>
+            <span>السعر</span><strong>260 درهم</strong>
+            <span>التوصيل</span><strong>مجاني</strong>
+          </div>
+        </div>
+
+        <form id="orderForm" class="order-form">
+          <label for="name">الإسم الكامل</label>
+          <input id="name" name="name" type="text" placeholder="اكتب اسمك الكامل" required>
+
+          <label for="phone">رقم الهاتف</label>
+          <input id="phone" name="phone" type="tel" inputmode="tel" placeholder="06XXXXXXXX" required>
+
+          <label for="city">المدينة</label>
+          <input id="city" name="city" type="text" placeholder="مثال: طنجة" required>
+
+          <label for="address">العنوان</label>
+          <textarea id="address" name="address" rows="3" placeholder="الحي، الشارع، رقم المنزل..." required></textarea>
+
+          <label for="size">المقاس</label>
+          <select id="size" name="size" required>
+            <option value="">اختر المقاس</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+          </select>
+
+          <button type="submit" id="submitBtn">تأكيد الطلب — 260 درهم</button>
+          <p class="form-note">🔒 معلوماتك تُستخدم فقط لمعالجة طلبك والتواصل معك لتأكيده.</p>
+          <div id="status" class="status" role="status"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© 2026 — جميع الحقوق محفوظة</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
